@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05753AEC27BB7BE20021E11B /* ValentineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05753AEB27BB7BE20021E11B /* ValentineApp.swift */; };
+		05753AEE27BB7BE20021E11B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05753AED27BB7BE20021E11B /* ContentView.swift */; };
+		05753AF027BB7BE30021E11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05753AEF27BB7BE30021E11B /* Assets.xcassets */; };
+		05753AF327BB7BE30021E11B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05753AF227BB7BE30021E11B /* Preview Assets.xcassets */; };
+		05753AFD27BB7BE30021E11B /* ValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05753AFC27BB7BE30021E11B /* ValentineTests.swift */; };
+		05753B0727BB7BE30021E11B /* ValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05753B0627BB7BE30021E11B /* ValentineUITests.swift */; };
+		05753B0927BB7BE30021E11B /* ValentineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05753B0827BB7BE30021E11B /* ValentineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05753AF927BB7BE30021E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05753AE027BB7BE20021E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05753AE727BB7BE20021E11B;
+			remoteInfo = Valentine;
+		};
+		05753B0327BB7BE30021E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05753AE027BB7BE20021E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05753AE727BB7BE20021E11B;
+			remoteInfo = Valentine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05753AE827BB7BE20021E11B /* Valentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05753AEB27BB7BE20021E11B /* ValentineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineApp.swift; sourceTree = "<group>"; };
+		05753AED27BB7BE20021E11B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05753AEF27BB7BE30021E11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05753AF227BB7BE30021E11B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05753AF827BB7BE30021E11B /* ValentineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05753AFC27BB7BE30021E11B /* ValentineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineTests.swift; sourceTree = "<group>"; };
+		05753B0227BB7BE30021E11B /* ValentineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05753B0627BB7BE30021E11B /* ValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineUITests.swift; sourceTree = "<group>"; };
+		05753B0827BB7BE30021E11B /* ValentineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05753AE527BB7BE20021E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753AF527BB7BE30021E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753AFF27BB7BE30021E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05753ADF27BB7BE20021E11B = {
+			isa = PBXGroup;
+			children = (
+				05753AEA27BB7BE20021E11B /* Valentine */,
+				05753AFB27BB7BE30021E11B /* ValentineTests */,
+				05753B0527BB7BE30021E11B /* ValentineUITests */,
+				05753AE927BB7BE20021E11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05753AE927BB7BE20021E11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05753AE827BB7BE20021E11B /* Valentine.app */,
+				05753AF827BB7BE30021E11B /* ValentineTests.xctest */,
+				05753B0227BB7BE30021E11B /* ValentineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05753AEA27BB7BE20021E11B /* Valentine */ = {
+			isa = PBXGroup;
+			children = (
+				05753AEB27BB7BE20021E11B /* ValentineApp.swift */,
+				05753AED27BB7BE20021E11B /* ContentView.swift */,
+				05753AEF27BB7BE30021E11B /* Assets.xcassets */,
+				05753AF127BB7BE30021E11B /* Preview Content */,
+			);
+			path = Valentine;
+			sourceTree = "<group>";
+		};
+		05753AF127BB7BE30021E11B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05753AF227BB7BE30021E11B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05753AFB27BB7BE30021E11B /* ValentineTests */ = {
+			isa = PBXGroup;
+			children = (
+				05753AFC27BB7BE30021E11B /* ValentineTests.swift */,
+			);
+			path = ValentineTests;
+			sourceTree = "<group>";
+		};
+		05753B0527BB7BE30021E11B /* ValentineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05753B0627BB7BE30021E11B /* ValentineUITests.swift */,
+				05753B0827BB7BE30021E11B /* ValentineUITestsLaunchTests.swift */,
+			);
+			path = ValentineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05753AE727BB7BE20021E11B /* Valentine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05753B0C27BB7BE30021E11B /* Build configuration list for PBXNativeTarget "Valentine" */;
+			buildPhases = (
+				05753AE427BB7BE20021E11B /* Sources */,
+				05753AE527BB7BE20021E11B /* Frameworks */,
+				05753AE627BB7BE20021E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valentine;
+			productName = Valentine;
+			productReference = 05753AE827BB7BE20021E11B /* Valentine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05753AF727BB7BE30021E11B /* ValentineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05753B0F27BB7BE30021E11B /* Build configuration list for PBXNativeTarget "ValentineTests" */;
+			buildPhases = (
+				05753AF427BB7BE30021E11B /* Sources */,
+				05753AF527BB7BE30021E11B /* Frameworks */,
+				05753AF627BB7BE30021E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05753AFA27BB7BE30021E11B /* PBXTargetDependency */,
+			);
+			name = ValentineTests;
+			productName = ValentineTests;
+			productReference = 05753AF827BB7BE30021E11B /* ValentineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05753B0127BB7BE30021E11B /* ValentineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05753B1227BB7BE30021E11B /* Build configuration list for PBXNativeTarget "ValentineUITests" */;
+			buildPhases = (
+				05753AFE27BB7BE30021E11B /* Sources */,
+				05753AFF27BB7BE30021E11B /* Frameworks */,
+				05753B0027BB7BE30021E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05753B0427BB7BE30021E11B /* PBXTargetDependency */,
+			);
+			name = ValentineUITests;
+			productName = ValentineUITests;
+			productReference = 05753B0227BB7BE30021E11B /* ValentineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05753AE027BB7BE20021E11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					05753AE727BB7BE20021E11B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					05753AF727BB7BE30021E11B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 05753AE727BB7BE20021E11B;
+					};
+					05753B0127BB7BE30021E11B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 05753AE727BB7BE20021E11B;
+					};
+				};
+			};
+			buildConfigurationList = 05753AE327BB7BE20021E11B /* Build configuration list for PBXProject "Valentine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05753ADF27BB7BE20021E11B;
+			productRefGroup = 05753AE927BB7BE20021E11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05753AE727BB7BE20021E11B /* Valentine */,
+				05753AF727BB7BE30021E11B /* ValentineTests */,
+				05753B0127BB7BE30021E11B /* ValentineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05753AE627BB7BE20021E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05753AF327BB7BE30021E11B /* Preview Assets.xcassets in Resources */,
+				05753AF027BB7BE30021E11B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753AF627BB7BE30021E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753B0027BB7BE30021E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05753AE427BB7BE20021E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05753AEE27BB7BE20021E11B /* ContentView.swift in Sources */,
+				05753AEC27BB7BE20021E11B /* ValentineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753AF427BB7BE30021E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05753AFD27BB7BE30021E11B /* ValentineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05753AFE27BB7BE30021E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05753B0727BB7BE30021E11B /* ValentineUITests.swift in Sources */,
+				05753B0927BB7BE30021E11B /* ValentineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05753AFA27BB7BE30021E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05753AE727BB7BE20021E11B /* Valentine */;
+			targetProxy = 05753AF927BB7BE30021E11B /* PBXContainerItemProxy */;
+		};
+		05753B0427BB7BE30021E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05753AE727BB7BE20021E11B /* Valentine */;
+			targetProxy = 05753B0327BB7BE30021E11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05753B0A27BB7BE30021E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05753B0B27BB7BE30021E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05753B0D27BB7BE30021E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Valentine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.Valentine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05753B0E27BB7BE30021E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Valentine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.Valentine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05753B1027BB7BE30021E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.ValentineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentine.app/Valentine";
+			};
+			name = Debug;
+		};
+		05753B1127BB7BE30021E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.ValentineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentine.app/Valentine";
+			};
+			name = Release;
+		};
+		05753B1327BB7BE30021E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.ValentineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Valentine;
+			};
+			name = Debug;
+		};
+		05753B1427BB7BE30021E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arjuncodes.ValentineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Valentine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05753AE327BB7BE20021E11B /* Build configuration list for PBXProject "Valentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05753B0A27BB7BE30021E11B /* Debug */,
+				05753B0B27BB7BE30021E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05753B0C27BB7BE30021E11B /* Build configuration list for PBXNativeTarget "Valentine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05753B0D27BB7BE30021E11B /* Debug */,
+				05753B0E27BB7BE30021E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05753B0F27BB7BE30021E11B /* Build configuration list for PBXNativeTarget "ValentineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05753B1027BB7BE30021E11B /* Debug */,
+				05753B1127BB7BE30021E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05753B1227BB7BE30021E11B /* Build configuration list for PBXNativeTarget "ValentineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05753B1327BB7BE30021E11B /* Debug */,
+				05753B1427BB7BE30021E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05753AE027BB7BE20021E11B /* Project object */;
+}
